@@ -6,8 +6,8 @@ target 'TestRenovatebot' do
   use_frameworks!
 
   # Pods for TestRenovatebot
-  pod 'GRDB.swift/SQLCipher', '6.24.1'
-  pod 'SQLCipher', '4.5.7'
+#  pod 'GRDB.swift/SQLCipher', '6.24.1'
+#  pod 'SQLCipher', '4.5.7'
   pod 'Parchment', '3.2.0'
 
 end
