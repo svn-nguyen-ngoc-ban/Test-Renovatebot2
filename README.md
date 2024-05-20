@@ -1,1 +1,1 @@
-# Test-Renovatebot2
+# Test-Renovatebot
