@@ -6,6 +6,6 @@ target 'TestRenovatebot' do
   use_frameworks!
 
   # Pods for TestRenovatebot
-  pod 'Kingfisher', '7.8.0'
+  pod 'Kingfisher', '7.11.0'
 
 end
