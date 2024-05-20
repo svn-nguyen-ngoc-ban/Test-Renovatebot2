@@ -100,6 +100,7 @@ DEPENDENCIES:
   - SkyWay (= 5.0.0)
   - SnapKit (= 5.6.0)
   - SocketRocket (= 0.7.0)
+  - SQLCipher (= 4.5.7)
   - SwiftFormat/CLI (= 0.52.0)
   - SwiftLint (= 0.54.0)
   - SwiftyJSON (= 5.0.2)
@@ -186,6 +187,6 @@ SPEC CHECKSUMS:
   SwinjectStoryboard: 240ce371396da09a4c43c72ee5c148108500e184
   Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
 
-PODFILE CHECKSUM: d6a124dd1fa736e4ade01ef731bddca31a342311
+PODFILE CHECKSUM: abe4cfa832022dd945f364b29985585bc0f3de35
 
 COCOAPODS: 1.15.2
