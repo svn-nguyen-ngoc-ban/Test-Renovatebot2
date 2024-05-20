@@ -46,7 +46,7 @@ PODS:
   - PromisesObjC (2.4.0)
   - R.swift (7.3.2)
   - RATreeView (2.1.2)
-  - ReachabilitySwift (5.0.0)
+  - ReachabilitySwift (5.2.2)
   - Reusable (4.1.2):
     - Reusable/Storyboard (= 4.1.2)
     - Reusable/View (= 4.1.2)
@@ -84,7 +84,7 @@ DEPENDENCIES:
   - Periphery (= 2.18.0)
   - R.swift (= 7.3.2)
   - RATreeView (= 2.1.2)
-  - ReachabilitySwift (= 5.0.0)
+  - ReachabilitySwift (= 5.2.2)
   - Reusable (= 4.1.2)
   - RSKImageCropper (= 4.0.0)
   - RxCocoa (= 6.6.0)
@@ -158,7 +158,7 @@ SPEC CHECKSUMS:
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
   RATreeView: 380cde0090cfde21dc6ac29137f49d3b768fdd28
-  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  ReachabilitySwift: 2128f3a8c9107e1ad33574c6e58e8285d460b149
   Reusable: 6bae6a5e8aa793c9c441db0213c863a64bce9136
   RSKImageCropper: 90dfe482402fb8a40cabd5fea65186d9102cc425
   RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
@@ -174,6 +174,6 @@ SPEC CHECKSUMS:
   SwinjectStoryboard: 240ce371396da09a4c43c72ee5c148108500e184
   Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
 
-PODFILE CHECKSUM: d183b30d1cf6570b186ae357c51c87a937326e37
+PODFILE CHECKSUM: 1324e5a07b30e44c60845fd3b46f43997eb872b8
 
 COCOAPODS: 1.15.2
