@@ -6,7 +6,7 @@ target 'TestRenovatebot' do
   use_frameworks!
 
   # Pods for TestRenovatebot
-  pod 'RSKImageCropper', '4.0.0'
+  pod 'RSKImageCropper', '4.1.1'
   pod 'SwiftyJSON', '5.0.2'
   pod 'SwiftFormat/CLI', '0.52.0'
   pod 'SwiftLint', '0.54.0'
