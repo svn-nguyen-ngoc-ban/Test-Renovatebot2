@@ -24,7 +24,7 @@ target 'TestRenovatebot' do
 #  pod 'MGSwipeTableCell', '1.6.14'
 #  pod 'Reusable', '4.1.2'
 #  pod 'SocketRocket', '0.7.0'
-  pod 'GRDB.swift/SQLCipher'
+  pod 'GRDB.swift'
   pod 'Parchment', '3.2.0'
 #  pod 'RATreeView', '2.1.2'
 #  pod 'Kingfisher', '7.11.0'
