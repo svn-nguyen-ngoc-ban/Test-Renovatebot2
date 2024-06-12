@@ -1,0 +1,27 @@
+name: Update artifact files for renovate[bot]
+on:
+  pull_request:
+    branches:
+      - develop
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+jobs:
+  update-artifact-files:
+    if: ${{ github.actor == 'renovate[bot]' }}
+    name: Update artifact files for renovate[bot]
+    runs-on: macos-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Pod install
+        run: pod install
+      - name: Auto commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update artifact files
+          file_pattern: 'Podfile*'
