@@ -1,6 +1,9 @@
 PODS:
+  - GRDB.swift (6.24.1):
+    - GRDB.swift/standard (= 6.24.1)
   - GRDB.swift/SQLCipher (6.24.1):
     - SQLCipher (>= 3.4.2)
+  - GRDB.swift/standard (6.24.1)
   - Parchment (3.2.0)
   - SQLCipher (4.5.7):
     - SQLCipher/standard (= 4.5.7)
@@ -9,6 +12,7 @@ PODS:
     - SQLCipher/common
 
 DEPENDENCIES:
+  - GRDB.swift
   - GRDB.swift/SQLCipher
   - Parchment (= 3.2.0)
 
@@ -23,6 +27,6 @@ SPEC CHECKSUMS:
   Parchment: a43c440b22c8a60f7e0196b74339446d4d1d18ea
   SQLCipher: 5e6bfb47323635c8b657b1b27d25c5f1baf63bf5
 
-PODFILE CHECKSUM: 6bd4448630732493cecf90e19ae3c0f68d4e64a2
+PODFILE CHECKSUM: 60518be2680db1c2d0b71348246933cc8d96173a
 
 COCOAPODS: 1.15.2
