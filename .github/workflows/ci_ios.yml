@@ -1,0 +1,21 @@
+name: CI / iOS
+on:
+  pull_request:
+    branches:
+      - "main*"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref }}
+  cancel-in-progress: true
+
+jobs:
+  check-spell:
+    name: Check spell
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mock Spell Checker
+        run: echo "ahihi"
