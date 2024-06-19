@@ -3,4 +3,23 @@
     "extends": [
         "config:recommended"
     ]
+    "enabledManagers": [
+        "cocoapods",
+        "circleci",
+        "ruby-version"
+    ],
+    "packageRules": [
+        {
+            "matchManagers": ["cocoapods"],
+            "addLabels": ["cocoapods"]
+        },
+        {
+            "matchManagers": ["circleci"],
+            "addLabels": ["circle-ci"]
+        },
+        {
+            "matchManagers": ["ruby-version"],
+            "addLabels": ["ruby"]
+        }
+    ]
 }
