@@ -26,7 +26,7 @@ target 'TestRenovatebot' do
 #  pod 'SocketRocket', '0.7.0'
   pod 'GRDB.swift/SQLCipher'
   pod 'GRDB.swift'
-  pod 'Parchment', '3.2.0'
+  pod 'Parchment', '3.4.0'
 #  pod 'RATreeView', '2.1.2'
 #  pod 'Kingfisher', '7.11.0'
 #  pod 'SkyWay', '5.0.0'
